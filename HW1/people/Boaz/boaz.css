@@ -15,35 +15,48 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 30px;
+    height: 40px;
     background-color: rgb(72, 166, 167);
     margin: 0px;
 }
 
-.socialMediaIcon {
+.socialmedia-icon {
     height: 30px;
     width: 30px;
-    margin: 0px;
+    margin: 5px;
 }
 
-.evenArticle {
+.home-icon{
+
+}
+
+.even-article {
     background-color: rgb(242, 239, 231);
     height: 300px;
     margin: 0px;
 }
 
-.unevenArticle {
+.uneven-article {
     background-color: rgb(154, 203, 208);
     height: 300px;
     margin: 0px;
 }
 
-section{
-
+.aside-left {
+    padding-right: 0px;
+    margin-right: 20px;
+    float: left;
 }
 
-aside{
+.aside-right {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
 
+.article-image{
+    height: 200px;
+    width: 200px
 }
 
 h1{
@@ -55,9 +68,9 @@ h1{
 p {
     background-color: inherit;
     width: 100%;
-    margin: 0px;
+    margin: 10px 20px ;
     font-size: 10px;
-    color: white;
+    color: black;
     font-family: "Gadugi";
 }
 
