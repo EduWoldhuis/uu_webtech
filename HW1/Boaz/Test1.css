@@ -1,0 +1,66 @@
+﻿body {
+    background-color: red;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(41, 115, 178);
+    font-size: 50px;
+    font-family: "Lucida Calligraphy";
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    background-color: rgb(72, 166, 167);
+    margin: 0px;
+}
+
+.socialMediaIcon {
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+}
+
+.evenArticle {
+    background-color: rgb(242, 239, 231);
+    height: 300px;
+    margin: 0px;
+}
+
+.unevenArticle {
+    background-color: rgb(154, 203, 208);
+    height: 300px;
+    margin: 0px;
+}
+
+section{
+
+}
+
+aside{
+
+}
+
+h1{
+    background-color: inherit;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    background-color: inherit;
+    width: 100%;
+    margin: 0px;
+    font-size: 10px;
+    color: white;
+    font-family: "Gadugi";
+}
+
+div{
+    height: 20px;
+}
