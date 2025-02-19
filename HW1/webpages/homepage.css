@@ -19,53 +19,19 @@ nav {
     background-color: rgb(72, 166, 167);
     margin: 0px;
 }
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  height: 100vh;
-}
 
 .flex-container {
   display: flex;
   background-color: blue;
   justify-content: center;
+  gap:1%;
 }
 
 .flex-container > img {
-  width: 100%;
-  height: auto;
   max-width: 100%;
-  max-height: 100%;
-  gap: 80px;
-  margin:100px;
+  width:30%;
+  max-width:100%;
   border:5px solid black;
-}
-
-.socialMediaIcon {
-    height: 30px;
-    width: 30px;
-    margin: 0px;
-}
-
-.evenArticle {
-    background-color: rgb(242, 239, 231);
-    height: 300px;
-    margin: 0px;
-}
-
-.unevenArticle {
-    background-color: rgb(154, 203, 208);
-    height: 300px;
-    margin: 0px;
-
-section{
-
-}
-
-aside{
-
 }
 
 h1{
