@@ -19,6 +19,29 @@ nav {
     background-color: rgb(72, 166, 167);
     margin: 0px;
 }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+}
+
+.flex-container > img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  gap: 80px;
+  margin:100px;
+  border:5px solid black;
+}
 
 .socialMediaIcon {
     height: 30px;
@@ -36,7 +59,6 @@ nav {
     background-color: rgb(154, 203, 208);
     height: 300px;
     margin: 0px;
-}
 
 section{
 
