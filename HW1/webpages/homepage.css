@@ -21,18 +21,23 @@ h1{
     text-align: center;
     margin: 0;
 }
-
+main{
+}
 .flex-container {
   display: flex;
+  height: 80vh;
   background-color: blue;
   justify-content: center;
+  align-items:center;
   gap:1%;
 }
 
 .flex-container > img {
-  width:30%;
-  max-width:100%;
-  border:5px solid black;
+  display: flex;
+  height: 20%;
+  width: auto;
+  max-width: 100%;
+  border: 5px solid black;
 }
 
 .page-title{
