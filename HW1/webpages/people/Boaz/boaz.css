@@ -80,6 +80,15 @@ nav {
     }
 }
 
+a {
+    text-decoration:underline;
+    color: red;
+}
+
+.flex-ignore{
+    display:contents;
+}
+
 p {
     display: flex;
     background-color: inherit;
@@ -92,4 +101,8 @@ p {
 
 table, th, td{
     border: 2px solid black;
+}
+
+.table-title{
+    column-span: all;
 }
