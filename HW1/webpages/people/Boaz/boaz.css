@@ -89,3 +89,7 @@ p {
     font-family: "Gadugi";
     font-size: clamp(20px, 2vw, 80px);
 }
+
+table, th, td{
+    border: 2px solid black;
+}
