@@ -1,29 +1,48 @@
 ﻿body {
     background-color: white;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
-    background-color: rgb(41, 115, 178);
-    font-size: 2vw;
-    font-family: "Lucida Calligraphy";
-    margin: 0;
-    text-align: center;
+  background-color: rgb(41, 115, 178);
+  font-size: 50px;
+  font-family: "Lucida Calligraphy";
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position:sticky;
+  align-self: flex-start;
+  top:0;
+  overflow:hidden;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 30px;
-    background-color: rgb(72, 166, 167);
-    margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(72, 166, 167);
+  margin: 0;
 }
 
-.socialMediaIcon {
-    height: 30px;
-    width: 30px;
-    margin: 0px;
+.socialmedia-icon {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-icon {
+  height: 40px;
+  width: 40px;
+  margin: 10px 0px 0px 0px;
 }
 
 .evenArticle {
@@ -55,7 +74,12 @@ td, th {
 .flex-ignore{
     display:contents;
 }
-ul, li{
+ul{
+  margin-left: 1vw;
+  color: white;
+  font-size: 2vw;
+}
+li{
   color: white;
   font-size: 2vw;
 }
@@ -73,35 +97,21 @@ h1{
 }
 
 p {
-    display: flex;
     background-color: inherit;
     width: 100%;
-    margin: 0px;
-    word-break: break-all;
+    margin: 2vw;
+    word-break: break-word;
     font-size: 2vw;
     color: white;
     font-family: "Gadugi";
 }
-@media(max-width: 800px) {
-    .even-paragraph {
-        flex-direction: column-reverse;
-    }
 
-    .uneven-paragraph {
-        flex-direction: column;
-    }
 
-    .article-image {
-        margin: 30px 0px 0px 0px;
-        font-size: inherit;
-        object-fit: contain;
-    }
+.gohome {
+  text-decoration:none;
+  color: black;
 }
 
-a {
-    text-decoration:underline;
-    color: red;
-}
 .centered{
   text-align: center;
 }
@@ -120,12 +130,24 @@ div{
   height:auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  bottom: 20;
   background-repeat: no-repeat;
   background-size: cover;
-}/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
+    min-height: 20vh;
   }
+}
+img {
+  
+  width: 20vw;
+  height: auto;
+}
+img {
+  
+  width: 20vw;
+  height: auto;
 }

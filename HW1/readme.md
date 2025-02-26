@@ -15,14 +15,14 @@ Your website must:
   -  be optimised for search engines
   -  use consistent layout and colour scheme
   -  use CSS for formatting, including at least:
-     -   several different styles for links
+     -   ! several different styles for links
      -   several different styles for text
-     -   styles for table elements
+     -   ! styles for table elements
      -   cascading styles through selector spesificity
      -   style inheritance
-  -  define all formatting styles in a separate CSS file
-  -  be compliant with the HTML5 rules of W3C Markup Validation Service and the CSS3 rules of 
-  -  W3C CSS Validation Service
+  -  ! define all formatting styles in a separate CSS file
+  -  ! be compliant with the HTML5 rules of W3C Markup Validation Service and the CSS3 rules of 
+  -  ! W3C CSS Validation Service
   -  not use any of the deprecated HTML elements or attributes (see for example here)
   -  render correctly in the current versions of Chrome and Firefox browsers
   -  follow the Web accessibility standard on
@@ -31,7 +31,7 @@ Your website must:
      -   Clear layout and design
      -   Customizable text
      -   Understandable content
-  -  follow the responsive Web design guidelines for
+  -  ! follow the responsive Web design guidelines for
      -   images
      -   content positioning
      -   units of measurement
@@ -41,17 +41,17 @@ Your website must:
   -  use indentation for nested HTML elements
   -  use lower case names for HTML elements and attributes
   -  use quotation marks for attribute values
-  -  always use alt attribute with img elements
-  -  use meaningful names for CSS classes
-  -  follow the BEM naming convention for CSS classes
+  -  ! always use alt attribute with img elements
+  -  ! use meaningful names for CSS classes
+  -  ! follow the BEM naming convention for CSS classes
   -  short CSS rules can be written on one line, but long rules need to occupy multiple lines
-  -  use lower case file names
-  -  make sure your website has a clear and logical file structure (index.html, meaningful names of files and folders)
+  -  ! use lower case file names
+  -  ! make sure your website has a clear and logical file structure (index.html, meaningful names of files and folders)
 
 ### Procedure
 
   -  complete and submit your website in groups 
-  -  the website should be archived and submitted as a single zip through the BlackBoard system
+  -  ! the website should be archived and submitted as a single zip through the BlackBoard system
 
 ### Academic integrity
 The work should be done by you and your peers only. You can rely on the support of teaching assistants and student
