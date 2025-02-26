@@ -27,14 +27,16 @@ nav {
 }
 
 .evenArticle {
-    background-color: #1f1f1f;
+    background-color: #201f4f;
     height: 30vw;
     margin: 0px;
-}
+    width: 100%;
+  }
 
 .unevenArticle {
     background-color: #0f0f0f;
     height: 30vw;
+    width: 100%;
     margin: 0px;
 }
 
@@ -50,9 +52,18 @@ td, th {
   border: 2px solid white;
 }
 
-table, ul, li{
+.flex-ignore{
+    display:contents;
+}
+ul, li{
   color: white;
   font-size: 2vw;
+}
+table{
+  color: white;
+  font-size: 2vw;
+  margin-left:auto;
+  margin-right:auto;
 }
 h1{
     color: white;
@@ -66,11 +77,34 @@ p {
     background-color: inherit;
     width: 100%;
     margin: 0px;
+    word-break: break-all;
     font-size: 2vw;
     color: white;
     font-family: "Gadugi";
 }
+@media(max-width: 800px) {
+    .even-paragraph {
+        flex-direction: column-reverse;
+    }
 
+    .uneven-paragraph {
+        flex-direction: column;
+    }
+
+    .article-image {
+        margin: 30px 0px 0px 0px;
+        font-size: inherit;
+        object-fit: contain;
+    }
+}
+
+a {
+    text-decoration:underline;
+    color: red;
+}
+.centered{
+  text-align: center;
+}
 div{
     height: 20px;
 }
