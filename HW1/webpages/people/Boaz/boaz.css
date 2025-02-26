@@ -9,21 +9,33 @@ header {
     font-family: "Lucida Calligraphy";
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:sticky;
+    align-self: flex-start;
+    top:0;
+    overflow:hidden;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     height: 40px;
     background-color: rgb(72, 166, 167);
-    margin: 0px;
+    margin: 0;
 }
 
 .socialmedia-icon {
     height: 30px;
     width: 30px;
+    padding: 0;
     margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-icon {
@@ -83,6 +95,11 @@ nav {
 a {
     text-decoration:none;
     color: red;
+}
+
+.gohome {
+    text-decoration:none;
+    color: black;
 }
 
 .flex-ignore{
